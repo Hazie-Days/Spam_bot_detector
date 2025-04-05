@@ -9,7 +9,8 @@ from sklearn.decomposition import PCA
 from sklearn.ensemble import StackingClassifier, RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
-
+# Import database functions
+from db import get_crowd_feedback_data, add_feedback
 
 #####################
 # Model Building
