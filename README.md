@@ -20,6 +20,8 @@ This project implements a Software-as-a-Service (SaaS) solution for detecting sp
   - **Scaling:** Using `StandardScaler` to normalize features.
   - **PCA:** Reducing dimensionality to capture the most significant variance and reduce noise.
   - **Stacking Classifier:** An ensemble method that combines RandomForest, SVC, and LogisticRegression, with a meta-classifier to improve pattern recognition.
+  
+  ![Machine Learning pipeline](architecture_image.png)
 
 - **Crowdsourcing Feedback Loop:**  
   The SaaS collects user feedback on predicted bot scores. This feedback is periodically used to retrain and update the model, enabling continuous improvement and adaptation to evolving spambot behaviors.
@@ -49,10 +51,8 @@ Future research will focus on expanding the training dataset with real-world exa
 
 The architecture integrates cloud-based machine learning with a crowdsourcing component for continuous improvement. The following diagram illustrates the overall data flow:
 
-![Hybrid Spambot Detection System Architecture](path/to/architecture_image.png)
+![Hybrid Spambot Detection System Architecture](SaaS_architecture.png)
 
-*Figure: Hybrid Spambot Detection System Architecture*  
-*(Replace `path/to/architecture_image.png` with the actual path or URL of your diagram image.)*
 
 ### Detailed Workflow:
 1. **User Submissions:**  
