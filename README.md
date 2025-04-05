@@ -2,6 +2,7 @@
 
 ## Overview
 This project implements a Software-as-a-Service (SaaS) solution for detecting spambots on social media by combining advanced machine learning techniques with a crowdsourcing feedback loop. The system extracts human-readable features from social media posts and account metrics (followers, followings, and verification status) and processes these features through a sophisticated ML pipeline to predict a bot score.
+ ![UI](spambot_ui.png)
 
 ## Key Features
 
